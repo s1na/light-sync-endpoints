@@ -13,10 +13,6 @@ endpoint:
   endpoint: str()
   # list display name for this endpoint
   name: str()
-  # if this endpoint provides entire finalized states
-  state: bool()
-  # if this endpoint provides an easy way for verifying the state downloaded from a different state provider
-  verification: bool()
   # list of contacts
   contacts: list(include('contact'), min=0, max=5, required=False)
   # list of notes
@@ -45,8 +41,6 @@ Adding a mainnet endpoint involes appending endpoint data to [`endpoints/mainnet
 ```yaml
 - endpoint: https://checkpoint-sync.example.com
   name: example.com
-  state: true
-  verification: true
 ```
 
 ### Contacts
@@ -54,8 +48,6 @@ Adding a mainnet endpoint involes appending endpoint data to [`endpoints/mainnet
 ```yaml
 - endpoint: https://checkpoint-sync.example.com
   name: example.com
-  state: true
-  verification: true
   contacts:
     - name: "@github"
       link: https://twitter.com/github
@@ -71,32 +63,11 @@ Adding a mainnet endpoint involes appending endpoint data to [`endpoints/mainnet
 ```yaml
 - endpoint: https://checkpoint-sync.example.com
   name: example.com
-  state: true
-  verification: true
   notes:
     - name: "Status page"
       link: https://checkpoint-sync-status.example.com
     # no link
     - name: "Some important note"
-```
-
-### Verification only endpoint
-
-```yaml
-- endpoint: https://checkpoint-sync.example.com
-  name: example.com
-  state: false
-  verification: true
-```
-
-### Block history endpoint
-
-```yaml
-- endpoint: https://checkpoint-sync.example.com
-  name: example.com
-  state: true
-  verification: true
-  block: true
 ```
 
 ## Adding a new network
