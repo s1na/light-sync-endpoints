@@ -8,4 +8,8 @@
   contacts:
     - name: "Discord channel"
       link: https://discord.gg/XRxWahP
-
+- endpoint: https://lodestar-holesky.chainsafe.io/
+  name: Lodestar (Chainsafe)
+  contacts:
+    - name: "Discord channel"
+      link: https://discord.gg/yjyvFRP

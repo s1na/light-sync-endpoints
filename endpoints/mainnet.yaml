@@ -15,3 +15,8 @@
       link: https://twitter.com/NoahCitron
     - name: "Helios telegram"
       link: https://t.me/+IntDY_gZJSRkNTJj
+- endpoint: https://lodestar-mainnet.chainsafe.io/
+  name: Lodestar (Chainsafe)
+  contacts:
+    - name: "Discord channel"
+      link: https://discord.gg/yjyvFRP

@@ -8,3 +8,8 @@
   contacts:
     - name: "@sina_mahmoodi"
       link: https://twitter.com/sina_mahmoodi
+- endpoint: https://lodestar-sepolia.chainsafe.io/
+  name: Lodestar (Chainsafe)
+  contacts:
+    - name: "Discord channel"
+      link: https://discord.gg/yjyvFRP
