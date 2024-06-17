@@ -1,0 +1,11 @@
+- endpoint: http://unstable.holesky.beacon-api.nimbus.team/
+  name: Nimbus Unstable
+  contacts:
+    - name: "Discord channel"
+      link: https://discord.gg/XRxWahP
+- endpoint: http://testing.holesky.beacon-api.nimbus.team/
+  name: Nimbus Testing
+  contacts:
+    - name: "Discord channel"
+      link: https://discord.gg/XRxWahP
+
