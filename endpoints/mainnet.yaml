@@ -2,12 +2,12 @@
   name: Nimbus Unstable
   contacts:
     - name: "Discord channel"
-      link: discord.gg/XRxWahP
+      link: https://discord.gg/XRxWahP
 - endpoint: http://testing.mainnet.beacon-api.nimbus.team/
   name: Nimbus Testing
   contacts:
     - name: "Discord channel"
-      link: discord.gg/XRxWahP
+      link: https://discord.gg/XRxWahP
 - endpoint: https://www.lightclientdata.org
   name: Helios
   contacts:
