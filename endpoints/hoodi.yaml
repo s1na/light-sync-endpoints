@@ -1,0 +1,15 @@
+- endpoint: http://unstable.hoodi.beacon-api.nimbus.team/
+  name: Nimbus Unstable
+  contacts:
+    - name: "Discord channel"
+      link: https://discord.gg/XRxWahP
+- endpoint: http://testing.hoodi.beacon-api.nimbus.team/
+  name: Nimbus Testing
+  contacts:
+    - name: "Discord channel"
+      link: https://discord.gg/XRxWahP
+- endpoint: https://lodestar-hoodi.chainsafe.io/
+  name: Lodestar (Chainsafe)
+  contacts:
+    - name: "Discord channel"
+      link: https://discord.gg/yjyvFRP
