@@ -44,7 +44,7 @@ jobs:
           name: endpoints
           path: _data/endpoints.yaml
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
   deploy:
     environment:
       name: github-pages
