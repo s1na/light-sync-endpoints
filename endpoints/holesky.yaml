@@ -13,3 +13,8 @@
   contacts:
     - name: "Discord channel"
       link: https://discord.gg/yjyvFRP
+- endpoint: http://prysm.bastin.io/
+  name: bastin.io (prysm - unstable)
+  contacts:
+    - name: "@bastin_eth"
+      link: https://t.me/bastin_eth
